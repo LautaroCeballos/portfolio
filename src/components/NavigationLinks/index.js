@@ -3,14 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faPaperclip, faFileAlt} from '@fortawesome/free-solid-svg-icons'
 
 export default function NavigationLinks() {
-    const navStyles = "text-left w-full text-gray-400"
-    const navLiStyles = "mb-8 hover:text-white transition-all"
+    const navStyles = "text-left w-full text-gray-400 h-1/3"
+    const navLiStyles = "w-full hover:text-white transition-all"
+    const navUlStyles = "h-full flex flex-wrap content-between"
     const navIconStyles = "mx-3"
     const activeLiStyles = "text-white"
     const activeIconStyles = "text-blue-600"
 
     return <nav className={navStyles}>
-        <ul>
+        <ul className={navUlStyles}>
             <li className={`${navLiStyles} ${activeLiStyles}`}>
                 <a href="/" >
                     <FontAwesomeIcon icon={faHome} className={`${navIconStyles} ${activeIconStyles}`} />Home

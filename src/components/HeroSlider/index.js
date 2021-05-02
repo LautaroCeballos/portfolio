@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function HeroSlider(){
-    const heroContainerStyles = "bg-hero-image bg-cover bg-right-top bg-fixed  h-screen w-screen flex flex-col items-center justify-center bg-blur-2xl"
+    const heroContainerStyles = "bg-hero-image bg-cover bg-right-top bg-fixed h-screen w-full flex flex-col items-center justify-center bg-blur-2xl"
     const contentStyles = "font-semibold text-white"
     const contentTitleStyles = "text-5xl"
     const contentSubtitleStyles = "text-3xl"

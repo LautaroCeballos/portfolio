@@ -1,10 +1,15 @@
 import React from 'react'
 import HeroSliderComponent from 'components/HeroSlider/'
+import AboutComponent from 'components/About/'
 
-const homeStyles = ""
+const content = "mx-3"
 
 export default function Home(){
-    return <main className={homeStyles}>
+    return <main>
         <HeroSliderComponent/>
+        <div className={content}>
+            <AboutComponent/>
+        </div>
+        
     </main>
 }
