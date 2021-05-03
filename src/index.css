@@ -8,12 +8,8 @@
     }
 
     .subtitle{
-        @apply w-full mt-10 text-blue-900 text-xl font-bold
+        @apply w-full text-blue-900 text-xl font-bold
     }
-
-    .p, .img, .ul {
-        @apply mt-5
-    } 
 
     .ul li{
         @apply mt-3
