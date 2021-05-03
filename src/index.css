@@ -3,11 +3,23 @@
 @tailwind utilities;
 
 @layer components {
-    .subheader{
-        @apply text-3xl text-blue-900 font-bold border-b-2 border-blue-500 pb-2 mb-5
+    .title{
+        @apply w-min mt-10 text-3xl text-blue-900 font-bold border-b-4 border-blue-500 pb-5
     }
 
-    .section-content{
-        @apply mt-10
+    .subtitle{
+        @apply w-full mt-10 text-blue-900 text-xl font-bold
+    }
+
+    .p, .img, .ul {
+        @apply mt-5
+    } 
+
+    .ul li{
+        @apply mt-3
+    }
+
+    .ul li span{
+        @apply text-blue-900 font-bold
     }
 }
