@@ -15,9 +15,9 @@ import xdSvg from 'media/svg/xd.svg'
 
 export default function SkillsList() {
     const containerStyles = "my-5"
-    const ListStyles = "flex gap-5 justify-around"
-    const ItemStyles = "h-14"
-    const imgStyles = "h-full min-w-full"
+    const ListStyles = "flex md:flex-nowrap flex-wrap gap-5 justify-around"
+    const ItemStyles = "md:h-16 h-9"
+    const imgStyles = "h-full min-w-full opacity-70 hover:opacity-100 transition-all"
 
     const skills = [{
         src: htmlSvg,

@@ -4,7 +4,7 @@
 
 @layer components {
     .title{
-        @apply w-min mt-10 text-3xl text-blue-900 font-bold border-b-4 border-blue-500 pb-5
+        @apply w-max mt-10 text-3xl text-blue-900 font-bold border-b-4 border-blue-500 pb-5
     }
 
     .subtitle{
