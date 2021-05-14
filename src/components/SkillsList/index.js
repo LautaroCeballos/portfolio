@@ -60,9 +60,9 @@ export default function SkillsList() {
     return <div className={containerStyles}>
         <ul className={ListStyles}>
             {
-                skills.map(skill => {
-                    return <li className={ItemStyles}>
-                        <img key={skill.src} src={skill.src} alt={skill.alt} className={imgStyles}/>
+                skills.map(({src, alt}) => {
+                    return <li className={ItemStyles} key={alt}>
+                        <img src={src} alt={alt} className={imgStyles}/>
                     </li>
                 })
             }
